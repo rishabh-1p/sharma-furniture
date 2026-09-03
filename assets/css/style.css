@@ -503,10 +503,15 @@ footer .flinks a:hover{color:var(--gold);}
 @media (max-width:760px){
   nav.links{display:none;}
   .nav-toggle{display:flex;}
+  .nav{flex-wrap:wrap;row-gap:10px;}
 }
 @media (max-width:560px){
   .wrap{padding:0 18px;}
-  .nav{padding:14px 18px;}
+  .nav{padding:14px 18px;flex-wrap:wrap;row-gap:10px;}
+  .brand-sub{display:none;}
+  .nav-cta{gap:8px;}
+  .nav-cta .btn-outline{display:none;}
+  .nav-cta .btn-accent{padding:9px 14px;font-size:12.5px;}
   .topbar .wrap{padding:9px 18px;}
   section{padding:56px 0;}
   .rail-track{grid-template-columns:repeat(3,1fr);}
